@@ -2,12 +2,47 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+header {
+  color: white;
+  z-index: 12;
+  position: fixed;
+  width: 100%;
+  padding: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 1s ease-in-out;
+}
+
+.header-scroll {
+  background-color: gray;
+}
+
+nav {
+  display: flex;
+  font-size: 22px;
+  gap: 18px
 }
 
 @keyframes fadeInAnimation {
