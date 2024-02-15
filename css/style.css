@@ -6,7 +6,12 @@
 }
 
 a {
+  
   color: inherit;
+}
+
+p, nav, h2, h3 {
+  font-family: "Roboto", sans-serif;
 }
 
 a:visited {
@@ -37,6 +42,8 @@ header {
 
 .header-scroll {
   background-color: gray;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 nav {
@@ -54,7 +61,10 @@ nav {
   }
 }
 
-.slider-container, .about {
+.slider-container,
+#about,
+#projects,
+#contact {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -71,7 +81,7 @@ nav {
   z-index: 5;
 }
 
-img {
+.slide {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -116,4 +126,42 @@ img {
 
 .visible {
   opacity: 1;
+}
+
+#projects {
+  background-color: rgb(26, 70, 62);
+}
+
+#about {
+  margin-top: 5vh;
+  padding-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.company, .holly {
+  width: 85%;
+  max-width: 700px; 
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  font-size: large;
+  color: rgb(91, 91, 91);
+}
+
+.image-card {
+  width: 35%;
+  height: auto;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-card h3 {
+ color: rgb(26, 70, 62);
 }
