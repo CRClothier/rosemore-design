@@ -1,6 +1,6 @@
 # Rosemore Design
 
-![Rosemore Design](https://via.placeholder.com/800x300)
+![Rosemore Design](images/rosemore.png)
 
 ## About
 
